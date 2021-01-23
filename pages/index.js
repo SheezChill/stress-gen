@@ -28,11 +28,24 @@ export default function Home() {
         <title>Stress Generator</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://stress-gen.vercel.app/" />
-        <meta property="og:title" content="Stress Generator" />
-        <meta property="og:description" content="Horny copypasta generator." />
-        <meta properti="og:image" content="../public/image.jpg" />
+    
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Stress Generator">
+        <meta name="description" content="Horny copypasta generator.">
+    
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://stress-gen.vercel.app/">
+        <meta property="og:title" content="Stress Generator">
+        <meta property="og:description" content="Horny copypasta generator.">
+        <meta property="og:image" content="https://raw.githubusercontent.com/SheezChill/stress-gen/master/public/image.jpg">
+    
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://stress-gen.vercel.app/">
+        <meta property="twitter:title" content="Stress Generator">
+        <meta property="twitter:description" content="Horny copypasta generator.">
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/SheezChill/stress-gen/master/public/image.jpg">
       </Head>
 
       <div className="main-container">
