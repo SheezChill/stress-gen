@@ -28,10 +28,11 @@ export default function Home() {
         <title>Stress Generator</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content="Stress Generator" />
-        <meta property="og:description" content="Horny copypasta generator." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://stress-gen.vercel.app/" />
+        <meta property="og:title" content="Stress Generator" />
+        <meta property="og:description" content="Horny copypasta generator." />
+        <meta properti="og:image" content="../public/image.jpg" />
       </Head>
 
       <div className="main-container">
