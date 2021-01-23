@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content="Stress Generator" />
         <meta propert="og:description" content="Horny copypasta generator." />
-        <meta property="og:type" content"website" />
+        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://stress-gen.vercel.app/" />
       </Head>
 
