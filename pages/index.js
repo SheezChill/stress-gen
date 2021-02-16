@@ -54,7 +54,7 @@ export default function Home() {
             {templateData.map((templates, index) => { return <button key={index} className={currentTemplate === templates.templateName ? 'current-active' : ''} onClick={() => { setCurrentTemplate(templates.templateName); changeCopyPasta(templates.copypasta) }}>{templates.templateName}</button> })}
           </div>
         </div>
-        <div className="output">{name === '' ? 'input name' : copypasta}</div>
+        <div className="output">{name === '' ? "input name" : name === 'sheez' ? "you're mom gay!!1!!1 don't input my name!!11!!! 🖕🖕🖕 💢💢💢" : copypasta }</div>
         <div>
           <h1>
             Generate copypasta template {''}
