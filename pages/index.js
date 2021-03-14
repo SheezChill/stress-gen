@@ -3,7 +3,7 @@ import Head from 'next/head'
 import templateData from './/__files/templateData.json'
 import Link from 'next/link'
 
-export default function Home() 
+export default function Home() {
 const bold = (strings, ...values) => {
         return values.reduce((finalString, value, index) => {
             return `${finalString}<strong>${value}</strong> ${strings[index + 1]}`
