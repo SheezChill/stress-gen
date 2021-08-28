@@ -102,11 +102,15 @@ button {
   background: none;
   border: 1px solid #ddd;
   border-radius: 4px;
+  
+  &:hover {
+    cursor: pointer;
+  }
 
   &:focus {
     outline: none;
-    cursor: pointer;
   }
+
 }
 
 .current-active {
