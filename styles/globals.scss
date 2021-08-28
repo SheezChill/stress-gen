@@ -98,13 +98,14 @@ input {
 }
 
 button {
-  padding: 4px;
+  padding: 4px 8px;
   background: none;
   border: 1px solid #ddd;
   border-radius: 4px;
 
   &:focus {
     outline: none;
+    cursor: pointer;
   }
 }
 
@@ -121,10 +122,10 @@ button {
 }
 
 .button-container {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(8, 60px);
-  grid-gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
 }
 
 .output {
@@ -137,16 +138,4 @@ button {
   font-size: 16px;
   word-wrap: break-word;
   word-break: break-all;
-}
-
-@media (max-width: 540px) {
-  .button-container {
-    grid-template-columns: repeat(4, 60px);
-  }
-}
-
-@media (max-width: 280px) {
-  .button-container {
-   grid-template-columns: repeat(3, 60px);
-  }
 }
